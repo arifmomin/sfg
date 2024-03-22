@@ -1,0 +1,68 @@
+:root{
+    --Blue:#2D9CDB;
+    --Purpel:#BB6BD9;
+    --Yellow:#FFD687;
+    --Red:#F46B5B;
+    --Black:#383838;
+    --Gray:#D0D0D2;
+    --old-Gray:#A7A7A7;
+    --white:#FFFFFF;
+    --poppins:"Poppins", sans-serif;
+    --Montserrat:"Montserrat", sans-serif;
+    --Nunito-sans:"Nunito Sans", sans-serif;
+}
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .header_border {
+        padding: 10px 0;
+    }
+    .header_col {
+        gap: 0px;
+    }
+    
+.header_icon {
+    gap: 10px;
+}
+.header_icon a i {
+    font-size: 18px;
+}
+
+.header_contact a {
+    font-size: 14px;
+}
+.header_contact a span {
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.menu_main_row {
+	flex-direction: column-reverse;
+}
+.menu_scnd_row .navbar-nav {
+	gap: 16px;
+    text-align: center;
+    margin-top: 0px;
+}
+.menu_row {
+	gap: 0px;
+	flex-direction: column-reverse;
+}
+.menu_right_row {
+	gap: 20px;
+	flex-direction: column;
+    margin-top: 30px;
+}
+.menu_search_bar {
+	width: 100%;
+}
+.menu_col .dashboard a {
+    display: none;
+}
+.navbar-collapse {
+    margin-top: 20px;
+	background: var(--Blue);
+	padding: 20px 15px;
+}
+
+
+
+}
